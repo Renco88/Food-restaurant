@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero{
+    height: 529px;
+    background-size: cover;
+    background-image: url("../assets/hero-bg.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hero .hero-content{
+    width: 453px;
+}
+#hero .hero-content .subtitle{
+   font-family: work sans;
+   font-size: 20px;
+   font-weight: 600px;
+   text-align: center;
+
+}
+#hero .hero-content .title{
+    
+}
